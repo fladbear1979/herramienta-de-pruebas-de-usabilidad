@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest" // Cambia 'echo' a 'jest' para usar un marco de pruebas adecuado
+    "test": "jest" // Usar 'jest' como marco de pruebas adecuado
   },
   "dependencies": {},
   "devDependencies": {
-    "jest": "^27.0.0" // Agrega jest como dependencia de desarrollo para pruebas
+    "jest": "^27.0.0" // Dependencia de desarrollo para pruebas
   },
-  "author": "Tu Nombre", // Tu nombre aquí
+  "author": "Tu Nombre", // Reemplaza con tu nombre real
   "license": "MIT"
 }
