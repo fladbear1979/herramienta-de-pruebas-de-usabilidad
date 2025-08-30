@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Usabilidad</title>
+</head>
+<body>
+    <h1>Encuesta de Usabilidad</h1>
+    <form id="feedbackForm">
+        <label for="feedback">Comentarios:</label><br>
+        <textarea id="feedback" name="feedback"></textarea><br>
+        <button type="submit">Enviar Feedback</button>
+    </form>
+    <script>
+        document.getElementById('feedbackForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const feedback = document.getElementById('feedback').value;
+            const response = await fetch('/feedback', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ feedback })
+            });
+            alert(await response.text());
+        };
+    </script>
+</body>
+</html>
