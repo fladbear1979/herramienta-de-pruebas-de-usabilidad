@@ -9,7 +9,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "jest": "^27.0.0"
+    "jest": "^27.0.0",
+    "eslint": "^7.32.0"  // Agregar ESLint para mejorar la calidad del código.
   },
   "author": "Tu Nombre",
   "license": "MIT"
