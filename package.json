@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest" // Usar 'jest' como marco de pruebas para ejecutar pruebas unitarias
+    "test": "jest"
   },
   "dependencies": {},
   "devDependencies": {
-    "jest": "^27.0.0" // Dependencia de desarrollo para pruebas automatizadas
+    "jest": "^27.0.0"
   },
-  "author": "Tu Nombre", // Reemplaza con tu nombre real
+  "author": "Tu Nombre",
   "license": "MIT"
 }
