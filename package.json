@@ -9,7 +9,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "jest": "^27.0.0" // Dependencia de desarrollo para ejecutar pruebas automatizadas
+    "jest": "^27.0.0" // Dependencia de desarrollo para pruebas automatizadas
   },
   "author": "Tu Nombre", // Reemplaza con tu nombre real
   "license": "MIT"
